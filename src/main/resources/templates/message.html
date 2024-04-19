@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<script th:inline="javascript">
+
+    /*<![DCATA[*/
+
+    var message = [[${message}]];
+    alert(message);
+    //자바스크립트의 경우 뒤에 ; 안붙여도되는데 그냥 버릇들이기용으로 붙여도 무방
+
+    location.replace([[${searchUrl}]]);
+
+    /*]]>*/
+
+
+</script>
+
+
+
+
+<body>
+
+</body>
+</html>

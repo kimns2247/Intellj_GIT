@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" www.th>
+<head>
+    <meta charset="UTF-8">
+    <title>글 쓰기 페이지 입니다!</title>
+</head>
+<body>
+    <div>
+        <form action="/test/write1" method="post" enctype="multipart/form-data">
+        <input name ="title" type="text">
+        <textarea name="content"></textarea>
+        <input type="file" name="file">
+<!--  여기서의 name을 file이라고 지정해주고 controller딴에서 받아줄때 변수의 이름도 마찬가지로 file이라고 지어줄것-->
+
+        <input type="submit" value="글 작성하기">
+        </form>
+    </div>
+</body>
+</html>
